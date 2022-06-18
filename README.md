@@ -4,7 +4,7 @@
  Quick look our data
 <br>![image](https://user-images.githubusercontent.com/83788186/174433751-4d8635ee-8b68-46bc-b272-6d8b57f2a130.png) </br>
 
-**1- Data Cleaning**
+# **1- Data Cleaning**
 We have some issue about our data,like ;
 
 "First Problem ('size') have 2 different value but that value actually same thing"
@@ -17,5 +17,13 @@ We have some issue about our data,like ;
 Let's fix this issue.
 
 
-**2-Feature Engineering**
+# **2-Feature Engineering**
+We need to apply dimensionality reduction technique here to reduce number of locations.
+if location_stats <= 10 then drop from location
+<br>![image](https://user-images.githubusercontent.com/83788186/174433951-e3b80caa-b33a-4ad3-9c8c-d2d600bbaf41.png)</br>
+
+# **3-Outlier Removal**
+<br>![image](https://user-images.githubusercontent.com/83788186/174433988-828747c7-2505-4aa8-b120-cbe0302bf3bc.png)</br>
+
+<br> ![image](https://user-images.githubusercontent.com/83788186/174434045-f8631cf5-802c-42ae-b8f9-aa7e9bf76cfd.png) </br>
 
