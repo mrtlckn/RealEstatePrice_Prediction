@@ -1,5 +1,6 @@
 # RealEstatePrice_Prediction
-
+->The purpose of this project is:
+    to make an accurate estimate of the houses based on the data in the house_prices.csv file.
 
  Quick look our data
 <br>![image](https://user-images.githubusercontent.com/83788186/174433751-4d8635ee-8b68-46bc-b272-6d8b57f2a130.png) </br>
@@ -26,4 +27,14 @@ if location_stats <= 10 then drop from location
 <br>![image](https://user-images.githubusercontent.com/83788186/174433988-828747c7-2505-4aa8-b120-cbe0302bf3bc.png)</br>
 
 <br> ![image](https://user-images.githubusercontent.com/83788186/174434045-f8631cf5-802c-42ae-b8f9-aa7e9bf76cfd.png) </br>
+
+# **4- Model Building**
+
+With;
+**Linear Regression score** : 0.8452277697874362
+**K-Fold score with Linear Regression** :np_split_5([0.82430186, 0.77166234, 0.85089567, 0.80837764, 0.83653286])
+
+**GridSearchCV** : 
+<br> ![image](https://user-images.githubusercontent.com/83788186/174434210-b2b378d8-0efc-49e9-8eb5-06c08074f9f8.png) </br>
+
 
