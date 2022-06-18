@@ -31,8 +31,8 @@ if location_stats <= 10 then drop from location
 # **4- Model Building**
 
 With;
-**Linear Regression score** : 0.8452277697874362
-**K-Fold score with Linear Regression** :np_split_5([0.82430186, 0.77166234, 0.85089567, 0.80837764, 0.83653286])
+<br>**Linear Regression score** : 0.8452277697874362 </br>
+<br>**K-Fold score with Linear Regression** :np_split_5([0.82430186, 0.77166234, 0.85089567, 0.80837764, 0.83653286])</br>
 
 **GridSearchCV** : 
 <br> ![image](https://user-images.githubusercontent.com/83788186/174434210-b2b378d8-0efc-49e9-8eb5-06c08074f9f8.png) </br>
